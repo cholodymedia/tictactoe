@@ -1,7 +1,8 @@
+
 body
 {
 	background-color: #993333;
-	font-family: "Amatic SC";
+	font-family: "Comfortaa";
 	color: white;
 	letter-spacing: 1px;
 }
@@ -121,6 +122,7 @@ body
 	font-weight: bold; 
 	margin-top: 2%;
 	animation: 0.5s ease-out 0s 1 dlalogo;
+	font-family: "Amatic SC";
 }
 
 #single
