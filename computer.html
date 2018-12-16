@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Amatic+SC&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<title>Tic Tac Toe</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="skrypt.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload='setTimeout(info, 1000);'>
+	<center>
+		<br>
+		<div id=link onclick='location.replace("index.html")'><h1>Tic Tac Toe</h1></div>
+		<br>
+		<div id=info></div>
+	<div id=contener>	
+		<div id="wygrana"> Wygrałeś!!<br><br><div id=menu onclick='location.replace("index.html")'>Menu</div><div id=reset onclick='location.replace("computer.html")'>Nowa Gra</div></div>
+		<div id="remis"> Remis!!!<br><br><div id=menu onclick='location.replace("index.html")'>Menu</div><div id=reset onclick='location.replace("computer.html")'>Nowa Gra</div></div>
+		<div id="przegrana"> Przegrałeś!!!<br><br><div id=menu onclick='location.replace("index.html")'>Menu</div><div id=reset onclick='location.replace("computer.html")'>Nowa Gra</div></div>
+
+		<div id="one" class="okno" onclick="touch(1)">  </div>	
+		<div id="two" class="okno" onclick="touch(2)">  </div>
+		<div id="three" class="okno" onclick="touch(3)">  </div>
+		<div id="four" class="okno" onclick="touch(4)">  </div>
+		<div id="five" class="okno" onclick="touch(5)">  </div>
+		<div id="six" class="okno" onclick="touch(6)">  </div>
+		<div id="seven" class="okno" onclick="touch(7)">  </div>
+		<div id="eight" class="okno" onclick="touch(8)">  </div>
+		<div id="nine" class="okno" onclick="touch(9)">  </div>
+	</div>
+
+	</center>
+
+</body>
+</html>

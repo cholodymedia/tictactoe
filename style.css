@@ -1,0 +1,169 @@
+body
+{
+	background-color: #993333;
+	font-family: Amatic SC;
+	color: white;
+	letter-spacing: 1px;
+}
+
+
+
+#contener
+{
+	width: 318px;
+	height: 318px;
+	margin-top: 2%;
+	animation: 0.5s ease-out 0s 1 dlalogo;
+}
+
+
+.okno
+{
+	border-style: solid;
+	border-color: #260d0d;
+	width: 100px;
+	height: 100px;
+	float: left;
+	background-color: white;
+	color: white;
+}
+
+.okno:hover
+{
+	background-color: #d9d9d9;
+	box-shadow: 0 0 10px inset black;
+}
+
+#info
+{
+	
+	width: 300px;
+	height: 40px;
+	font-weight: bold;
+	font-size: 20px; 
+}
+
+#wygrana
+{
+	position: absolute;
+	width: 318px;
+	height: 298px;
+	padding-top: 20px;
+	background-color: white;
+	color: black;
+	font-size: 200%;
+	visibility: hidden;
+	font-weight: bold;
+}
+
+#przegrana
+{
+	position: absolute;
+	width: 318px;
+	height: 298px;
+	padding-top: 20px;
+	background-color: white;
+	color: black;
+	font-size: 200%;
+	visibility: hidden;
+	font-weight: bold;
+}
+
+#remis
+{
+	position: absolute;
+	width: 318px;
+	height: 298px;
+	padding-top: 20px;
+	background-color: white;
+	color: black;
+	font-size: 200%;
+	visibility: hidden;
+	font-weight: bold;
+}
+
+
+#menu
+{
+	float: left;
+	width: 100px;
+	font-size: 70%;
+	margin-left:10%; 
+	font-weight: bold;
+}
+
+#menu:hover
+{
+	color: white;
+	background-color: black;
+	cursor: pointer;
+}
+
+#reset
+{
+	width: 255px;
+	font-size: 70%;
+	font-weight: bold;
+}
+
+#reset:hover
+{
+	color: white;
+	background-color: black;
+	cursor: pointer;
+
+}
+
+#title
+{
+	color: white;
+	font-size: 40px;
+	font-weight: bold; 
+	margin-top: 2%;
+	animation: 0.5s ease-out 0s 1 dlalogo;
+}
+
+#single
+{
+	float: left;
+	width: 18%;
+	margin: 0 auto;
+	padding-left: 25%;
+	animation: 0.5s ease-out 0s 1 dlalogo;
+}
+
+#logo
+{
+	float: left;
+	width: 18%;
+	margin: 0 auto;
+	animation: 0.5s ease-out 0s 1 dlalogo;
+}
+
+#multi
+{	float: left;
+	width: 18%;
+	margin: 0 auto;
+	animation: 0.5s ease-out 0s 1 dlalogo;
+}
+
+#link
+{
+	width: 150px;
+	animation: 0.5s ease-out 0s 1 dlalogo;
+}
+
+#link:hover
+{
+	color: #3a3a3c;
+	background-color: white;
+	cursor: pointer;
+}
+
+@keyframes dlalogo
+{
+	0% {transform: translateY(-20%);}
+	100% {transform: translateY(0);}
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
